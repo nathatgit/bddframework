@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="5" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="17" time="10.360125">
+<testcase classname="BddTests" name="scenario A" time="7.347865">
+<system-out><![CDATA[Given i am on scenario "Background".........................................passed
+Given i am on scenario "A"..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="BddTests" name="scenario B" time="0.000198">
+<system-out><![CDATA[Given i am on scenario "Background".........................................passed
+Given i am on scenario "B"..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="BddTests" name="scenario C" time="0.00016">
+<system-out><![CDATA[Given i am on scenario "Background".........................................passed
+Given i am on scenario "C"..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="BddTests" name="scenario D" time="0.00019">
+<system-out><![CDATA[Given i am on scenario "Background".........................................passed
+Given i am on scenario "D"..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="BddTests" name="scenario E" time="0.000243">
+<system-out><![CDATA[Given i am on scenario "Background".........................................passed
+Given i am on scenario "E"..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="BddTests" name="scenario  XYZ" time="0.000209">
+<system-out><![CDATA[Given i am on scenario "Background".........................................passed
+Given i am on scenario "XYZ"................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="BddTests" name="scenario F" time="0.000197">
+<system-out><![CDATA[Given i am on scenario "Background".........................................passed
+Given i am on scenario "B"..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="BddTests" name="scenario F 2" time="0.000373">
+<system-out><![CDATA[Given i am on scenario "Background".........................................passed
+Given i am on scenario "C"..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="BddTests" name="scenario F 3" time="0.000171">
+<system-out><![CDATA[Given i am on scenario "Background".........................................passed
+Given i am on scenario "D"..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="BddTests" name="scenario F 4" time="0.000179">
+<system-out><![CDATA[Given i am on scenario "Background".........................................passed
+Given i am on scenario "E"..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="BddTests" name="scenario F 5" time="0.00021">
+<system-out><![CDATA[Given i am on scenario "Background".........................................passed
+Given i am on scenario "XYZ"................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="TC_001_Login Page Test Cases" name="Verify that New Tours logo image is displayed in top left" time="2.943018">
+<system-out><![CDATA[Given New Tours Web Page is opened..........................................passed
+Then New Tours logo image is displayed in top left..........................passed
+Then I Close the browser....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="TC_001_Login Page Test Cases" name="User is able to login successfully" time="0.065368">
+<failure message="org.openqa.selenium.NoSuchSessionException: invalid session id&#10;Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'&#10;System info: host: 'WKWIN8804921', ip: '10.12.0.67', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\ragnath\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62188}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 78430cabc5aa747bd69d91411a41ba61&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)&#13;&#10;&#9;at stepDefinitions.ValidatingLoginFunctionality.new_Tours_Web_Page_is_opened(ValidatingLoginFunctionality.java:26)&#13;&#10;&#9;at ✽.Given New Tours Web Page is opened(ValidatingLoginPage.feature:12)&#13;&#10;"><![CDATA[Given New Tours Web Page is opened..........................................failed
+Then User enter username, password and click on submit......................skipped
+Then User validate the welcome message......................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'WKWIN8804921', ip: '10.12.0.67', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\ragnath\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62188}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 78430cabc5aa747bd69d91411a41ba61
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
+	at stepDefinitions.ValidatingLoginFunctionality.new_Tours_Web_Page_is_opened(ValidatingLoginFunctionality.java:26)
+	at ✽.Given New Tours Web Page is opened(ValidatingLoginPage.feature:12)
+]]></failure>
+</testcase>
+<testcase classname="TC_001_Login Page Test Cases" name="Validate Headers" time="0.00017">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given New Tours Website is opened and logged in.............................undefined
+Then Validate header "Home" displayed on the page...........................undefined
+]]></failure>
+</testcase>
+<testcase classname="TC_001_Login Page Test Cases" name="Validate Headers 2" time="0.000281">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given New Tours Website is opened and logged in.............................undefined
+Then Validate header "Book" displayed on the page...........................undefined
+]]></failure>
+</testcase>
+<testcase classname="TC_001_Login Page Test Cases" name="Validate Headers 3" time="0.00107">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given New Tours Website is opened and logged in.............................undefined
+Then Validate header "XYX" displayed on the page............................undefined
+]]></failure>
+</testcase>
+<testcase classname="TC_001_Login Page Test Cases" name="Validate Headers 4" time="0.000223">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given New Tours Website is opened and logged in.............................undefined
+Then Validate header "ABC" displayed on the page............................undefined
+]]></failure>
+</testcase>
+</testsuite>
